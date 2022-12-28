@@ -1,0 +1,42 @@
+*{
+ 
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 100;
+}
+a{
+     text-decoration: none;
+}
+.navbar-brand {
+	font-size: 17px;
+}
+.title-hero-section {
+	margin-top: 110px;
+}
+.hero-img{
+    margin-top: 77px;
+}
+ /* responsive */
+@media only screen and (max-width:992px){
+    .hero-img {
+        display:none;
+    }
+
+}
+.nav-link {
+	font-size: 12px;
+}
+.dropdown-item.text-danger {
+	font-size: 12px;
+}
+#navbarDropdown {
+	font-size: 13px;
+}
+@media only screen and (max-width:576px) {
+    
+    #queston .line-brkk{
+        display: block;
+    }
+}
